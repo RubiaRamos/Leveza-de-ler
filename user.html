@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" href="img/titulo.png">
+</head>
+<body>
+    <div id="modal1" class="modal-overlay">
+
+        <div class="modal-box">
+            <div>
+                <a href="index.html">
+                    <img src="img/user.png" class="logo">
+                </a>    
+            </div>
+
+            <h2>Crie sua conta</h2>
+
+            <form>
+                                
+                <p class="texto pequeno">Informe seu nome completo</p>
+                <input type="text" placeholder="Digite seu nome completo">
+
+                <p class="texto pequeno">Insira seu e-mail</p>
+                <input type="text" placeholder="Digite seu email">
+
+                <p class="texto pequeno">Informe seu telefone</p>
+                <input type="text" placeholder="Digite seu telefone">   
+
+                <p class="texto pequeno">De seu feedback:</p>
+                <textarea id="mensagem" name="mensagem" placeholder="Inicie aqui" rows="5"></textarea>
+
+                <br><br>
+
+                <button type="button" onclick="window.location.href='index.html'">
+                    Entrar
+                </button>
+
+            </form>
+
+        </div>
+
+    </div>
+          <!-- Java conteudo dos modais -->
+    <script>
+
+        const modal1 = document.getElementById('modal1');
+
+        function abrirModal1() {
+            modal1.style.display = 'flex';
+        }
+
+        function fecharModal1() {
+            modal1.style.display = 'none';
+        }    
+
+    </script>
+    
+</body>
+</html>

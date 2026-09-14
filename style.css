@@ -27,6 +27,128 @@ body{
     position:relative;
 }
 
+.user {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+    display: block;
+    position: absolute;
+    left: 20px;
+    top: 10px;
+}
+
+.modal-overlay {
+    width: 100%;
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 20px;
+}
+
+.modal-box {
+    width: 100%;
+    max-width: 450px;
+
+    background: #ffffff;
+
+    padding: 35px;
+
+    border-radius: 18px;
+
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.35);
+
+    text-align: center;
+}
+
+.modal-box h2 {
+    font-size: 28px;
+    color: #222;
+
+    margin-bottom: 30px;
+}
+
+textarea {
+  width: 100%; 
+  min-height: 80px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+.texto {
+    text-align: left;
+
+    color: #333;
+
+    margin-bottom: 8px;
+}
+
+.pequeno {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+form input[type="text"] {
+    width: 100%;
+
+    padding: 13px 15px;
+
+    margin-bottom: 20px;
+
+    border: 1px solid #ccc;
+    border-radius: 8px;
+
+    font-size: 15px;
+
+    outline: none;
+
+    transition: 0.3s;
+}
+
+/* Quando clicar no campo */
+
+form input[type="text"]:focus {
+    border-color: #243b55;
+
+    box-shadow: 0 0 0 3px rgba(36, 59, 85, 0.15);
+}
+
+button {
+    width: 100%;
+
+    padding: 13px;
+
+    border: none;
+
+    border-radius: 8px;
+
+    background: #243b55;
+
+    color: white;
+
+    font-size: 16px;
+
+    font-weight: bold;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #141e30;
+
+    transform: translateY(-2px);
+
+    box-shadow: 0 5px 12px rgba(0, 0, 0, 0.2);
+}
+
 .logo-link{
     position:absolute;
     left:50%;
@@ -332,5 +454,21 @@ a{
 
     .conjunto{
         height:285px;
+    }
+    
+}
+@media (max-width: 500px) {
+
+    .modal-box {
+        padding: 25px 20px;
+    }
+
+    .modal-box h2 {
+        font-size: 24px;
+    }
+
+    .logo {
+        width: 65px;
+        height: 65px;
     }
 }
