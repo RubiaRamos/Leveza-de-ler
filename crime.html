@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leveza ler</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="img/logo.png">
+
+</head>
+<body>
+    <div class="central">
+        <div class="barra">
+            <a href="index.html">
+                <img src="img/logo.png" class="logo">
+            </a>
+            <div class="pesquisa">
+                <span class="icone">⌕</span>
+                <input type="text" id="campoPesquisa" placeholder="Pesquisar livro...">
+                <button id="limparPesquisa">×</button>
+            </div>
+        </div>
+
+        <div class="info">
+            <img src="img/crime.jpg" alt="Crime e castigo" class="foto">
+            <div class="caixa">
+                <h2> Crime e castigo </h2>
+
+                <h3> Sinopse</h3>
+                
+                <p>
+                    "Crime e Castigo", de Fiódor Dostoiévski, acompanha o ex-estudante Rodion Raskólnikov em 
+                    São Petersburgo. Consumido pela miséria e por uma teoria de que homens extraordinários estariam 
+                    acima da moral comum, ele assassina uma velha agiota para testar seus limites e aliviar suas 
+                    dívidas.
+                    <br><br>
+                    Contudo, o protagonista é imediatamente tomado por uma culpa lancinante, febre e paranoia, agravadas 
+                    pelos interrogatórios psicológicos do investigador Porfíri Petróvitch. Em meio ao abismo da loucura, 
+                    o apoio inabalável de Sônia Marmeládova o conduz à confissão e ao envio para trabalhos forçados na 
+                    Sibéria, onde ele finalmente inicia sua dolorosa jornada de redenção espiritual.
+                </p>
+                <h3> Onde comprar </h3>
+                <br><br>
+                <button type="button" 
+                        onclick="window.open('https://www.amazon.com.br/Crime-castigo-Fiodor-Dostoi%C3%A9vski/dp/6555520809/ref=srd_d_psims_d_sccl_2_7/143-7061359-4079243?pd_rd_w=hy0Nj&content-id=amzn1.sym.ebf6c53b-8563-45af-833e-25b1308ef797&pf_rd_p=ebf6c53b-8563-45af-833e-25b1308ef797&pf_rd_r=YNR73PG6HD78TF9XSE2D&pd_rd_wg=6Uxzi&pd_rd_r=11f9b88d-0170-4adf-9e00-7eb195891633&pd_rd_i=6555520809&psc=1');"> 
+                    Compre aqui
+                </button>
+
+            </div>
+        </div>
+        <div class="conteudo">
+
+            <a href="1984.html" class="conjunto">
+                <img src="img/1984.jpg" class="livros">
+                <p>1984</p>
+            </a>
+
+            <a href="crime.html" class="conjunto">
+                <img src="img/bela.jpg" class="livros">
+                <p> Crime e castigo </p>
+            </a>
+
+            <a href="sherlock.html" class="conjunto">
+                <img src="img/sherlock_holmes.jpg" class="livros">
+                <p>Um estudo em vermelho </p>
+                <span>(Sherlock Holmes)</span>
+            </a>
+
+        </div>
+        
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

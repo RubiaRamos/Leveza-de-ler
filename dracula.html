@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leveza ler</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="img/logo.png">
+
+</head>
+<body>
+    <div class="central">
+        <div class="barra">
+            <a href="index.html">
+                <img src="img/logo.png" class="logo">
+            </a>
+            <div class="pesquisa">
+                <span class="icone">⌕</span>
+                <input type="text" id="campoPesquisa" placeholder="Pesquisar livro...">
+                <button id="limparPesquisa">×</button>
+            </div>
+        </div>
+
+        <div class="info">
+            <img src="img/dracula.jpg" alt="Drácula" class="foto">
+            <div class="caixa">
+                <h2> Drácula </h2>
+
+                <h3> Sinopse</h3>
+                
+                <p>
+                    When Jonathan Harker, a young English lawyer, journeys to the Carpathian Mountains to meet with a new client, 
+                    his perception of reality warps as he experiences a series of paranormal events involving his host, Count 
+                    Dracula, three women staying in his castle, and the local wolves. Jonathan wakes disoriented in a Budapest 
+                    hospital with his fiancée Mina at his side.
+                    <br><br>
+
+                    But the count's appetites are far from sated. He lands on the shores of England, leaving no survivors among 
+                    the ship's crew. From there, Dracula stalks Mina's best friend, Lucy, who becomes very ill. Lucy's friends 
+                    rally around her--one of them even recruiting an old teacher, Professor Abraham Van Helsing--but she eventually 
+                    succumbs to her sickness.
+
+                </p>
+                <h3> Onde comprar </h3>
+                <br><br>
+                <button type="button" 
+                        onclick="window.open('https://www.amazon.com.br/Dracula-Bram-Stoker/dp/1665963034');"> 
+                    Compre aqui
+                </button>
+
+            </div>
+        </div>
+        <div class="conteudo">
+
+            <a href="imperatriz.html" class="conjunto">
+                <img src="img/imperatriz.jpg" class="livros">
+                <p>A Imperatriz</p>
+            </a>
+
+            <a href="crime.html" class="conjunto">
+                <img src="img/bela.jpg" class="livros">
+                <p> Crime e castigo </p>
+            </a>
+            
+            <a href="frankenstein.html" class="conjunto">
+                <img src="img/franl.jpg" class="livros">
+                <p>Frankenstein</p>
+                <span>Or the Modern Prometheus</span>
+            </a>
+
+        </div>
+        
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

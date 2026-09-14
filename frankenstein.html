@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leveza ler</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="img/logo.png">
+
+</head>
+<body>
+    <div class="central">
+        <div class="barra">
+            <a href="index.html">
+                <img src="img/logo.png" class="logo">
+            </a>
+            <div class="pesquisa">
+                <span class="icone">⌕</span>
+                <input type="text" id="campoPesquisa" placeholder="Pesquisar livro...">
+                <button id="limparPesquisa">×</button>
+            </div>
+        </div>
+
+        <div class="info">
+            <img src="img/franl.jpg" alt="Frankenstein" class="foto">
+            <div class="caixa">
+                <h2> Frankenstein Or the Modern Prometheus</h2>
+
+                <h3> Sinopse</h3>
+                
+                <p>
+                    Mary Shelley’s Frankenstein; or, The Modern Prometheus tells the tragic story of 
+                    Victor Frankenstein, a Swiss scientist who successfully creates a living creature 
+                    from scavenged body parts, only to abandon it in horror. The intelligent and gentle 
+                    creature, repeatedly rejected by humanity due to its grotesque appearance, turns to 
+                    malice and vows revenge on Victor. This leads to the systematic murder of Victor's 
+                    loved ones, culminating in a relentless pursuit across the Arctic wastes that ends 
+                    in mutual destruction.
+                    
+                </p>
+                <h3> Onde comprar </h3>
+                <br><br>
+                <button type="button" 
+                        onclick="window.open('https://www.amazon.com.br/Frankenstein-Modern-Prometheus-Mary-Shelley/dp/0307743314', '_blank');"> 
+                    Compre aqui
+                </button>
+
+            </div>
+        </div>
+        <div class="conteudo">
+
+            <a href="sherlock.html" class="conjunto">
+                <img src="img/sherlock_holmes.jpg" class="livros">
+                <p>Sherlock Holmes</p>
+            </a>
+
+            <a href="1984.html" class="conjunto">
+                <img src="img/1984.jpg" class="livros">
+                <p> 1984 </p>
+            </a>
+
+            <a href="bela.html" class="conjunto">
+                <img src="img/bela.jpg" class="livros">
+                <p>A Bela e a Fera</p>
+            </a>
+
+        </div>
+        
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
